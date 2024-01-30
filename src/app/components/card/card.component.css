@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+}
+
+.container p {
+  color: #FFFFFF;
+}
+
+.material-icons.white { color: #FFFFFF; }
+
+i {
+  color: #FFFFFF;
+  font-size: 36px;
+}
