@@ -55,12 +55,37 @@ span {
   justify-content: center;
   transform: translateY(-35%);
   padding: 0 2rem 0 2rem;
+  height: 24rem;
   background-color: #FFFFFF;
+}
+
+.about .cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem
 }
 
 .about .titles {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: red;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  height: 8rem;
+  background-color: #0C0A1F;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.color-white {
+  color: #FFFFFF;
 }

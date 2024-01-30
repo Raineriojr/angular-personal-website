@@ -51,10 +51,28 @@
 </section>
 <section class="about">
   <p>Check out some of my works</p>
-  <app-work-card
+  <div class="cards">
+    <app-work-card
     title="Projeto X"
     subtitle="Projeto voltado a execução de scripts em python e técnicas de machine learning"
-  />
+    />
+    <app-work-card
+      title="Projeto Y"
+      subtitle="Projeto voltado a execução de scripts em python e técnicas de machine learning"
+    />
+    <app-work-card
+      title="Projeto Z"
+      subtitle="Projeto voltado a execução de scripts em python e técnicas de machine learning"
+    />
+  </div>
 </section>
+<footer>
+  <a href="#">
+    <h3 class="color-white">Rainério DEV</h3>
+  </a>
+  <div class="content">
+    <h4 class="color-white">Desenvolvido por Rainério Costa. {{year}}</h4>
+  </div>
+</footer>
 
 <router-outlet></router-outlet>

@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title: string = 'angular-personal-ws';
 
+  year: string = new Date().getFullYear().toString();
+
   skillsList: Array<{skill: string, years: string}> = [
     { skill: 'Mobile Developer', years: '3 Years'},
     { skill: 'Frontend Developer', years: '3 Years'},
