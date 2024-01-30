@@ -5,6 +5,10 @@
   box-sizing: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   padding: 0 2rem 0 2rem;
 }

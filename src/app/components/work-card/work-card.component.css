@@ -1,6 +1,4 @@
 .container {
-  display: flex;
-  flex-direction: column;
   height: 300px;
   width: 300px;
   contain: content;
@@ -13,7 +11,6 @@
 .image-container {
   contain: content;
   height: 230px;
-  width: 100%;
 }
 
 .image-container po-button {
