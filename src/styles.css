@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.container {
+  padding: 0 2rem 0 2rem;
+}
+
+.icon-white{
+  color: #FFFFFF;
+}
+
+/* po-button {
+  --color: rgb(255, 255, 255);
+  --background-color: black;
+}
+ */
