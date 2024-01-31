@@ -1,0 +1,19 @@
+.content_container {
+  border: 1px solid white;
+  width: 100%;
+  justify-content: center;
+}
+
+.content_cover {
+  width: 500px;
+}
+
+.content_title {
+  display: flex;
+  justify-content: center;
+}
+
+.content_description {
+  display: flex;
+  justify-content: center;
+}
