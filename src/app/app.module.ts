@@ -11,6 +11,8 @@ import { BigCardComponent } from './components/big-card/big-card.component';
 import { ImageComponent } from './components/image/image.component';
 import { PillComponent } from './components/pill/pill.component';
 import { WorkCardComponent } from './components/work-card/work-card.component';
+import { ContentComponent } from './pages/content/content.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { WorkCardComponent } from './components/work-card/work-card.component';
     BigCardComponent,
     ImageComponent,
     PillComponent,
-    WorkCardComponent
+    WorkCardComponent,
+    ContentComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
