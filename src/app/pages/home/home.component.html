@@ -1,0 +1,75 @@
+<div class="container">
+  <p>I'm <span>Rainério</span>. I will create a system that can give value to your product</p>
+
+  <div class="image-container">
+    <app-image
+      directory="../../../assets/rainerio.webp"
+      description="Foto de Rainério, desenvolvedor web."
+    />
+
+    <div class="skills-list">
+      <app-pill
+        *ngFor="let item of skillsList; let i = index;"
+        [ngClass]="setItemStyle(i)"
+        title={{item.skill}}
+        subtitle={{item.years}}
+      />
+    </div>
+  </div>
+</div>
+<div class="contact-section">
+  <section class="cards-container">
+    <app-card
+      icon="ion-logo-linkedin"
+      title="LinkedIn"
+      subtitle="rainerio-costa"
+      link="https://www.linkedin.com/in/rainerio-costa/"
+    />
+    <app-card
+      icon="ion-logo-github"
+      title="Github"
+      subtitle="Raineriojr"
+      link="https://github.com/Raineriojr"
+    />
+    <app-card
+      icon="ion-logo-instagram"
+      title="Instagram"
+      subtitle="@rainerio_jr"
+      link="https://www.instagram.com/rainerio_jr/"
+    />
+    <app-card
+      icon="ion-md-mail"
+      title="Email"
+      subtitle="raijunior20@gmail.com"
+      link="mailto:raijunior20@gmail.com"
+    />
+  </section>
+</div>
+<section class="big-card-container">
+  <app-big-card />
+</section>
+<section class="about">
+  <p>Check out some of my works</p>
+  <div class="cards">
+    <app-work-card
+    title="Projeto X"
+    subtitle="Projeto voltado a execução de scripts em python e técnicas de machine learning"
+    />
+    <app-work-card
+      title="Projeto Y"
+      subtitle="Projeto voltado a execução de scripts em python e técnicas de machine learning"
+    />
+    <app-work-card
+      title="Projeto Z"
+      subtitle="Projeto voltado a execução de scripts em python e técnicas de machine learning"
+    />
+  </div>
+</section>
+<footer>
+  <a href="#">
+    <h3 class="color-white">Rainério DEV</h3>
+  </a>
+  <div class="content">
+    <h4 class="color-white">Desenvolvido por Rainério Costa. {{year}}</h4>
+  </div>
+</footer>
