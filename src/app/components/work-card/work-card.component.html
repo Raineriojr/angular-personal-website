@@ -1,7 +1,7 @@
 <div class="container">
   <div class="image-container">
-    <po-button p-label="View Details" p-small p-kind="primary" />
-    <img src="../../../assets/rainerio.webp" alt="" />
+    <po-button [routerLink]="['content', id]" p-label="View Details" p-small p-kind="primary" />
+    <img src="{{ img }}" alt="" />
   </div>
 
   <div class="description">
