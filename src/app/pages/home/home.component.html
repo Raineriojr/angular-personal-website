@@ -52,16 +52,11 @@
   <p>Check out some of my works</p>
   <div class="cards">
     <app-work-card
-    title="Projeto X"
-    subtitle="Projeto voltado a execução de scripts em python e técnicas de machine learning"
-    />
-    <app-work-card
-      title="Projeto Y"
-      subtitle="Projeto voltado a execução de scripts em python e técnicas de machine learning"
-    />
-    <app-work-card
-      title="Projeto Z"
-      subtitle="Projeto voltado a execução de scripts em python e técnicas de machine learning"
+      *ngFor="let card of dataFake;"
+      id="{{card.id}}"
+      title="{{card.title}}"
+      subtitle="{{card.description}}"
+      img="{{card.photo}}"
     />
   </div>
 </section>
